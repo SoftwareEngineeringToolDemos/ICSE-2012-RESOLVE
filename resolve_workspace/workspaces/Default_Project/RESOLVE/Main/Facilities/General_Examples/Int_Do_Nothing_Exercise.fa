@@ -1,0 +1,11 @@
+Facility Int_Do_Nothing_Exercise;
+	uses Integer_Template;
+
+	Operation Do_Nothing(restores I: Integer);
+		requires min_int <= I+1 <= max_int;
+	Procedure
+		Increment(I);
+		Decrement(I);
+	end Do_Nothing;
+
+end Int_Do_Nothing_Exercise;
