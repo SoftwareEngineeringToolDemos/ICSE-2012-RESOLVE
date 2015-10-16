@@ -8,4 +8,4 @@ The link to the tool is <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&
 
 The <a href="https://github.com/ClemsonRSRG/RESOLVE>"github</a> link to the binaries of the project.
 
-The link of the online project is <a href="http://www.cs.clemson.edu/resolve/index.html">link</a>. The link to the online project has the executable.
+The link of the online project is <a href="http://www.cs.clemson.edu/resolve/index.html">link</a>. The link has the executable.
