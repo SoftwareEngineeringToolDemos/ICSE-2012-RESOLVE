@@ -7,3 +7,5 @@ The paper related to the original tool is <b>"Specification engineering and modu
 The link to the tool is <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6227243">link</a> and the link to the <a href="https://www.youtube.com/watch?v=9vg3WuxeOkA">video</a>.
 
 The <a href="https://github.com/ClemsonRSRG/RESOLVE">github</a> link to the binaries of the project. The link of the online project is <a href="http://www.cs.clemson.edu/resolve/index.html">link</a>. The link has the executable.
+
+This repository was constructed by [Kairav Padarthy](https://github.com/kairav) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).  
