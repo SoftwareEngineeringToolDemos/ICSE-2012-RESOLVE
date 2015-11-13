@@ -3,7 +3,7 @@
 
 1. Install [vagrant] (https://www.vagrantup.com/downloads.html) and [virtualbox]
 (https://www.virtualbox.org/wiki/Downloads) on your host machine.
-2. Download the [Vagrantfile] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-RESOLVE/blob/master/build_vm/Vagrantfile) from [build-vm] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-RESOLVE/blob/master/build_vm/Vagrantfile) folder on your machine and save it in a folder where you want to install the VM.
+2. Download the [Vagrantfile] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-RESOLVE/blob/master/build_vm/Vagrantfile) from [build-vm] (https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-RESOLVE/blob/master/build_vm) folder on your machine and save it in a folder where you want to install the VM.
 3. From the host, navigate to that folder and execute the command : "vagrant up"
 
 ###Note :
