@@ -14,7 +14,7 @@ Vagrant.configure(2) do |config|
    config.vm.provider "virtualbox" do |vb|
      # Display the VirtualBox GUI when booting the machine
      vb.gui = true
-     vb.name = "TestResolve"
+     vb.name = "Resolve"
   
   #   # Customize the amount of memory on the VM:
      vb.memory = "2048"
@@ -45,6 +45,7 @@ Vagrant.configure(2) do |config|
 	 sudo mv /usr/share/applications/ubuntu-software-center.desktop /home/vagrant/icons_backup
 	 sudo mv /usr/share/applications/ubuntuone-installer.desktop /home/vagrant/icons_backup
 	 sudo mv /usr/share/applications/libreoffice-*.desktop /home/vagrant/icons_backup
+	 sudo mv /usr/share/applications/ubuntu-amazon-default.desktop /home/vagrant/icons_backup
 	 
 	 
 	 #installing SQL 
@@ -61,8 +62,8 @@ Vagrant.configure(2) do |config|
 	 cd /home/vagrant/Desktop/RESOLVEWebIDE-v4
 	 #starting the tool
 	 /home/vagrant/Desktop/play-1.2.5.5/play deps
-	 /home/vagrant/Desktop/play-1.2.5.5/play run
-	 sleep 20
+	 /home/vagrant/Desktop/play-1.2.5.5/play run&
+	 sleep 15
 	 firefox&
 	 sudo mkdir /home/vagrant/.config/autostart
 	 sudo cp /home/vagrant/Desktop/startup.sh /home/vagrant/.config/autostart/
