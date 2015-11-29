@@ -14,7 +14,7 @@ Vagrant.configure(2) do |config|
    config.vm.provider "virtualbox" do |vb|
      # Display the VirtualBox GUI when booting the machine
      vb.gui = true
-     vb.name = "Resolve"
+     vb.name = "TestResolve"
   
   #   # Customize the amount of memory on the VM:
      vb.memory = "2048"
@@ -39,6 +39,14 @@ Vagrant.configure(2) do |config|
 	 wget https://googledrive.com/host/0ByN4zmGGN7D6ZWUyanBQSzlRdTg/YouTubeDemo.desktop
 	 wget https://googledrive.com/host/0ByN4zmGGN7D6ZWUyanBQSzlRdTg/Resolve.zip
 	 unzip Resolve.zip
+	 
+	 #removing icons from the sidebar
+	 sudo mkdir /home/vagrant/icons_backup
+	 sudo mv /usr/share/applications/ubuntu-software-center.desktop /home/vagrant/icons_backup
+	 sudo mv /usr/share/applications/ubuntuone-installer.desktop /home/vagrant/icons_backup
+	 sudo mv /usr/share/applications/libreoffice-*.desktop /home/vagrant/icons_backup
+	 
+	 
 	 #installing SQL 
 	 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password password'
 	 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password password'
