@@ -8,11 +8,11 @@ This repository _is not_ the original repository for this tool.Here are some lin
 * [Project GitHub Link](https://github.com/ClemsonRSRG/RESOLVE)
 * [A Video of the Tool](https://www.youtube.com/watch?v=9vg3WuxeOkA)
 
-In this repository, for ExampleTool you will find:
+In this repository, you will find:
 * :x: Source code (not available)
-* :white_check_mark: [The original tool](http://www.cs.clemson.edu/resolve/index.html) (available)
-* :white_check_mark: [The binaries](https://github.com/ClemsonRSRG/RESOLVE) (available)
-* :white_check_mark: [Virtual Machine containing the tool](https://drive.google.com/a/ncsu.edu/file/d/0ByN4zmGGN7D6M2NTZlpPUFNYdU0/view) (available)
+* :white_check_mark: The original tool (available)
+* :x: Executable tool (not available)
+* :white_check_mark: [Virtual machine containing tool](http://go.ncsu.edu/SE-tool-VMs)
 
 Thanks to Murali Sitaraman and Yu-Shan Sun for helping me find and setup the tool and the repository.
 The paper related to the original tool is <b>"Specification engineering and modular verification using a web-integrated verifying compiler"</b>. 
